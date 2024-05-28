@@ -8,12 +8,20 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <p class="lose">
+        You lose
+    </p>
+    <p class="win">
+        You win
+    </p>
+    <button class="retry">
+        Retry
+     </button>
+
     <main>
-         <img src="./images/knife.png" alt="knife" class="knife">
-         <div class="fruit-wrapper">
-            <img src="./images/apple/a-half-1.png" alt="half-1" class="half">
-            <img src="./images/apple/a-half-2.png" alt="half-2" class="half">
-         </div>
+         <img src="./images/knife.png" draggable="false" alt="knife" class="knife">
+         <img src="./images/slice.gif" draggable="false" alt="slice animation" class="slice">
+         <p class="score">Score: <span class="scoreNumber">0</span></p>
      </main>
 </body>
 </html>

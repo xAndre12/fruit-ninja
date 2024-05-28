@@ -25,6 +25,7 @@ main {
     width: 150px;
     visibility: hidden;
     position: absolute;
+    transform: rotate(190deg);
 }
 .fruit-wrapper {
     position: absolute;
@@ -34,4 +35,61 @@ main {
 .half{
     width: 50%;
     margin:-2px;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.slice{
+    height: 40px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 3;
+}
+.score{
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+.bomb{
+    pointer-events: none;
+    width: 100px;
+    margin:-2px;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.retry{
+    width: 250px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+}
+.lose{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 500px;
+    visibility: hidden;
+}
+.win{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 500px;
+    visibility: hidden;
 }

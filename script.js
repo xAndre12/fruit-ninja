@@ -157,7 +157,7 @@ const moveFruit = (fruit) =>{
 
 setInterval(() => {
     createFruit(i++, fruitsImgs[Math.floor(Math.random() * 8)]); 
-}, Math.floor(Math.random(1000) * 1500) );
+}, Math.floor(Math.random(1000) * 100) );
 
 retry.addEventListener("click",(()=>{
 main.style.display = "flex";
